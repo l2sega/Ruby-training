@@ -1,0 +1,58 @@
+#array = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+#array = [1, 2, 3, 4, 5, 6, 7, 8]
+#array.insert(0, 'Gogi')
+#array.push(2)
+#array.unshift(2)
+#array.push ([3, 3, 3])
+#puts array[1][1]
+
+#hash_ex = {dog: 'black', cat: 'white'}
+#hash_ex['dog'] = 'black'
+#hash_ex['kat'] = 'white'
+#hash_ex[:dog] = 'yellow'
+#puts hash_ex[:dog]
+#puts hash_ex.keys
+#puts hash_ex.values
+#puts hash_ex.has_key? (:dog)
+#puts hash_ex.has_value? ('black')
+
+#hash_ex = {dog: ['black', 'good', 'friend'], cat: ['white', 'hungry', 'sleepy']}
+#puts hash_ex[:dog][2]
+
+#a = 123
+#b = a.to_s
+#c = 'Test ' + b
+#puts c
+
+#a = '123 + 421 = 1'
+#a.gsub!(' ', '').gsub!('+', '').gsub!('=', '')
+#puts a
+
+#b = 'Sega, Mega, Bob'
+#c = b.sub!('Bob', 'Drive')
+#puts c
+
+
+#array = [1, 2, 3, 4, 5, 6, 7, 8]
+#new = array.map {|x| x**2}
+#puts new
+
+#puts array.take(3)
+#puts array.drop(2)
+#puts array.include? 2
+#puts array.empty?
+
+#array = ['BMW', 'Mersedes', 'Lexus']
+#for brand in array
+#  puts brand
+#end
+
+x = 'Small Pett'
+
+y = x.downcase.split.join("")
+
+puts y
+
+
+
+
